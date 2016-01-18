@@ -1,0 +1,73 @@
+/* line 1, ../scss/_base.scss */
+article, section, h1, h2, div {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 6, ../scss/_base.scss */
+html {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 12, ../scss/_base.scss */
+body {
+  font-family: helvetica;
+  font-size: 1.2rem;
+  line-height: 160%;
+  color: #919191;
+  background-color: #fcf8dc;
+}
+
+/* line 23, ../scss/_base.scss */
+h1, h2, h3, h4, h5, h6 {
+  color: #919191;
+  font-family: times;
+  font-size: 1.6rem;
+}
+
+/* line 30, ../scss/_base.scss */
+h1 {
+  font-family: times;
+  font-size: 2rem;
+  color: lightskyblue;
+}
+
+/* line 41, ../scss/_base.scss */
+a {
+  font-color: pink;
+}
+/* line 45, ../scss/_base.scss */
+a:hover {
+  color: #ff274d;
+}
+
+/* line 51, ../scss/_base.scss */
+p {
+  margin-bottom: 10px;
+}
+
+/* line 3, ../scss/_modules.scss */
+#mathw h1 {
+  margin-top: 5px;
+  margin-bottom: 5x;
+  border-bottom: 1px #919191 dashed;
+  padding-left: 5px;
+}
+
+/* line 16, ../scss/_modules.scss */
+.socilamediaicons ul {
+  float: right;
+}
+/* line 19, ../scss/_modules.scss */
+.socilamediaicons ul li {
+  display: inline-block;
+  text-decoration: none;
+}
+
+/* line 10, ../scss/_layout.scss */
+nav ul.navbar li a {
+  color: pink;
+  text-decoration: none;
+  padding: 5px 10px;
+}

@@ -1,0 +1,54 @@
+article, section,h1,h2,div,{
+
+	margin:0;
+	padding:0;
+}
+html{
+
+	margin:0;
+	padding:0;
+}
+
+body{
+
+     font-family: helvetica;
+     font-size: 1.2rem;
+     line-height: 160%;
+     color:$gray57;
+     background-color:$blue;
+
+}
+
+   
+#{headings()}{
+
+	color:$gray57;
+	font-family:times;
+	font-size:1.6rem;
+}
+
+h1{
+	font-family:times;
+	font-size:2rem;
+	color:$lightskyblue;
+}
+
+a{
+
+	
+}
+
+a{
+
+	
+	font-color:$pink;
+	&:hover{
+		color:darken($pink, 30);
+		
+	}
+}
+
+p{
+
+	margin-bottom:10px;
+}
